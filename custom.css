@@ -1,0 +1,19 @@
+/* 
+    Fonts:  Merriweather
+            Open Sans
+    Colors: #fff
+            #57bdc2
+    Twitter cards??
+    About Us Page
+    Heroku
+*/
+
+h1, h2, h3 {
+        font-family: 'Merriweather' , sans-serif;
+}       
+
+p {
+        font-family: 'Open-Sans' , sans-serif;
+}
+
+
