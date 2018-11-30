@@ -8,12 +8,178 @@
     Heroku
 */
 
-h1, h2, h3 {
+/* –––––––––––––– General Styling –––––––––––––––*/
+
+h1, h2, h3, h4{
         font-family: 'Merriweather' , sans-serif;
 }       
 
+h1 {
+        margin: 2% 0 5% 20%;
+        width: 100%;
+}
+.header-desc {
+        text-align: center;
+        width: 100%;
+        margin: 0 20% 0 20%;
+        font-size: 1.3rem;
+}       
+
+h4 {
+        font-size: 1rem;
+}
+
 p {
         font-family: 'Open-Sans' , sans-serif;
+        font-size: 1.2rem;
+}
+
+hr {
+        float: left;
+        padding: 0;
+        height: 0;
+        width: 20%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 3px solid #57bdc2;
+        border-bottom: 3px solid #57bdc2;
+        margin-bottom: 2%;
+     }
+/* –––––––––––––– Card Styles ––––––––––––––––––––––*/
+
+.card-img-top {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        min-height: 400px;
+}
+
+.card-img {
+        margin-top: 10%;
+        max-width: 50%;
+        height: auto;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.card {
+        padding: 0px;
+        margin: 5% 2% 3% 2%;
+        border-radius: 25px;
+
+}
+
+.card-body {
+        background-color: #fafafa;
+}
+
+.card-img-overlay > h2 {
+        margin-top: 5%;
+        font-size: 2em;
+
+}
+
+.card-img-overlay > .location > h4 {
+        display: inline;
+        font-size: 1em;
+        margin-left: 5px;
+}
+
+.card-img-overlay {
+        color: white;
+        
+}
+
+.dark-overlay {
+        background: black;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+}
+
+.dark-overlay > .card-img-top {
+        opacity: .5;
+}
+
+.location {
+        width: 100%;
+        margin-top: 10%;
 }
 
 
+
+/* –––––––––– Media Queries ––––––––––––– */
+
+@media (min-width: 2560px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 750px;
+        }
+
+        h1 {
+                font-size: 64px;
+        }
+ }
+
+ @media (max-width:  1440px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 400px;
+        }
+ }
+
+ @media (max-width: 1024px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 350px;
+        }
+ }
+
+ @media (max-width: 768px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 400px;
+        }
+ }
+
+ @media (max-width: 425px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 400px;
+        }
+ }
+
+
+ @media (max-width: 320px) { 
+
+        .card-img-top {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                min-height: 350px;
+        }
+ }
