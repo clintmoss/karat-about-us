@@ -75,6 +75,7 @@ hr {
 
 .card-body {
         background-color: #fafafa;
+        z-index: 0;
 }
 
 .card-img-overlay > h2 {
@@ -136,6 +137,7 @@ hr {
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
                 min-height: 400px;
+                max-height: 400px;
         }
  }
 
@@ -147,6 +149,7 @@ hr {
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
                 min-height: 350px;
+                max-height: 350px;
         }
  }
 
